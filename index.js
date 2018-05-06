@@ -29,6 +29,7 @@ function iLoveTheBeatles(num) {
   var i = 0;
   do {
     thisMuch.push("I love the Beatles!");
+    num++;
     console.log(num);
   }
   while (num < 15);
